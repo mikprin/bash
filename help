@@ -1,0 +1,3 @@
+apt-file search libQtCore.so.4
+
+search 4 file
