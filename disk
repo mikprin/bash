@@ -1,4 +1,7 @@
 df -h - SPACE
 
+
+sudo du -sh /var
+
 1. fdisk
 Fdisk is the most commonly used command to check the partitions on a disk. The fdisk command can display the partitions and details like file system type. However it does not report the size of each partitions.
