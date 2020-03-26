@@ -1,0 +1,42 @@
+sudo apt install zsh
+sudo apt install build-essential
+sudo apt install python3
+sudo apt install python-pip
+
+
+ 
+
+sudo apt install python3-pip
+
+sudo apt-get install texlive-full
+
+sudo apt install discord
+sudo apt install texmaker
+
+
+sudo apt-get update
+wget -qO - https://download.sublimetext.com/sublimehq-pub.gpg | sudo apt-key add -
+ls
+echo "deb https://download.sublimetext.com/ apt/stable/" | sudo tee /etc/apt/sources.list.d/sublime-text.list
+sudo apt-get update
+sudo apt-get install sublime-text
+sudo apt install lm-sensors 
+sh -c "$(wget -O- https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+
+
+sudo apt-get install mesa-common-dev
+sudo apt-get install libglu1-mesa-dev -y
+
+sudo apt-get install qt5-default
+sudo apt-get install qt4-default
+sudo apt-get install ruby-full
+
+
+ sudo apt install snapd
+
+
+
+ wget https://www.klayout.org/downloads/source/klayout-0.26.4.tar.gz
+ mkdir git
+ cd git
+ 
