@@ -4,7 +4,7 @@ sudo apt install python3
 sudo apt install python-pip
 
 sudo apt install htop
-
+sudo apt install gnome-tweaks
 
  
 
@@ -14,6 +14,7 @@ sudo apt-get install texlive-full
 
 sudo apt install discord
 sudo apt install texmaker
+
 
 
 sudo apt-get update
