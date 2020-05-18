@@ -2,4 +2,4 @@
 
 
 xhost +
-ssh solovyanov_m@93.175.31.146 -p 10037 -X -Y
+ssh solovyanov_m@ncs-design.mipt.ru  -X -Y
