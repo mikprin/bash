@@ -12,3 +12,6 @@ popd
 
 
 watch (1)            - execute a program periodically, showing output fullscreen
+
+
+psf -t time -t 1 -i /path/to/psf/simfile -o output.txt
