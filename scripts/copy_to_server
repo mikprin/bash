@@ -1,3 +1,3 @@
 #!/bin/sh
 
-scp -P 10037 -r  $1 solovyanov_m@93.175.31.146:/home/solovyanov_m 
+scp -r  $1 solovyanov_m@ncs-design.mipt.ru:/home/solovyanov_m 
