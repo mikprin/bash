@@ -1,19 +1,19 @@
-sudo apt install zsh
-sudo apt install build-essential
-sudo apt install python3
-sudo apt install python-pip
+sudo apt install zsh -y
+sudo apt install build-essential -y
+sudo apt install python3 -y
+sudo apt install python-pip -y
 
-sudo apt install htop
-sudo apt install gnome-tweaks
+sudo apt install htop -y
+sudo apt install gnome-tweaks -y
 
  
 
-sudo apt install python3-pip
+sudo apt install python3-pip -y
 
-sudo apt-get install texlive-full
+sudo apt-get install texlive-full -y
 
-sudo apt install discord
-sudo apt install texmaker
+sudo apt install discord -y
+sudo apt install texmaker -y 
 
 
 
@@ -27,7 +27,7 @@ sudo apt install lm-sensors
 sh -c "$(wget -O- https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
 
-sudo apt-get install mesa-common-dev
+sudo apt-get install mesa-common-dev -y
 sudo apt-get install libglu1-mesa-dev -y
 
 sudo apt-get install qt5-default
