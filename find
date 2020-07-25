@@ -12,3 +12,7 @@ find . -perm 777 = найти все файлы
 
 find . -name "11" -exec "command target {} +"
 find . -name "11" -exec command target {} \; a
+
+just use:
+
+fzf 

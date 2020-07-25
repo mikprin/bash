@@ -7,6 +7,7 @@ sudo apt install htop -y
 sudo apt install gnome-tweaks -y
 
  
+sudo apt isntall fzf
 
 sudo apt install python3-pip -y
 
@@ -43,3 +44,4 @@ sudo apt-get install ruby-full
  mkdir git
  cd git
  
+
