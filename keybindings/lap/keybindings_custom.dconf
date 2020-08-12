@@ -24,6 +24,5 @@ command='brave-browser-beta'
 name='BRAVEb'
 
 [custom5]
-binding='<Super>q'
 command='systemctl suspend'
 name='systemctl suspend'
