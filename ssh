@@ -1,0 +1,16 @@
+# DETACH
+
+After typing ‘screen’ command, you will be in a new screen session, within this session you can create new windows, traverse between windows, lock the screen, and do many more stuff which you can do on a normal terminal.
+
+$ screen
+
+Detaching a Screen
+
+Just when you want to log out of the remote session, but you want to keep the session you created on that machine alive, then just what you need to do is detach the screen from the terminal so that it has no controlling terminal left. After doing this, you can safely logout.
+
+To detach a screen from the remote terminal, just press “Ctrl+a” immediately followed by “d” and you will be back to the terminal seeing the message that the Screen is detached. Now you can safely logout and your session will be left alive.
+
+If you want to Resume a detached screen session which you left before logging out, just re-login to remote terminal again and type “screen -r” in case if only one screen is opened, and if multiple screen sessions are opened run “screen -r <pid.tty.host>”.
+
+$ screen -r
+$ screen -r <pid.tty.host>

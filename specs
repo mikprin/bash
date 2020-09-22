@@ -1,0 +1,3 @@
+memory specs
+
+sudo dmidecode --type 17
