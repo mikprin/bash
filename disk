@@ -2,22 +2,25 @@ df -h - SPACE
 
 
 
-To list all block devices, run:
+#To list all block devices, run:
+
 lsblk 
 
 sudo du -sh /var
 
 1. fdisk
-Fdisk is the most commonly used command to check the partitions on a disk. The fdisk command can display the partitions and details like file system type. However it does not report the size of each partitions.
+#Fdisk is the most commonly used command to check the partitions on a disk. The fdisk command can display the partitions and details like file system type. However it does not report the size of each partitions.
 
-ncdu - утилита для поиска по размерам!
+ncdu #- утилита для поиска по размерам!
 
 
-1. Using df Command get File syst type
+#1. Using df Command get File syst type
 
-df command reports file system disk space usage, to include the file system type on a particular disk partition, use the -T flag as below:
+df  #command reports file system disk space usage, to include the file system type on a particular disk partition, use the -T flag as below:
 
 $ df -Th
 OR
 $ df -Th | grep "^/dev"
 
+#get UUID:
+sudo blkid

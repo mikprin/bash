@@ -1,20 +1,20 @@
-sudo apt install zsh -y
-sudo apt install build-essential -y
-sudo apt install python3 -y
-sudo apt install python-pip -y
+sudo apt -y install zsh 
+sudo apt -y install build-essential 
+sudo apt -y install python3
+sudo apt -y install python-pip
 
-sudo apt install htop -y
-sudo apt install gnome-tweaks -y
+sudo apt -y install htop
+sudo apt -y install gnome-tweaks
 
  
-sudo apt isntall fzf
+sudo apt -y isntall fzf
 
-sudo apt install python3-pip -y
+sudo apt -y install python3-pip
 
-sudo apt-get install texlive-full -y
+sudo apt-get -y install texlive-full
 
-sudo apt install discord -y
-sudo apt install texmaker -y 
+sudo apt -y install discord
+sudo apt -y install texmaker 
 
 
 
@@ -28,16 +28,16 @@ sudo apt install lm-sensors
 sh -c "$(wget -O- https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
 
-sudo apt-get install mesa-common-dev -y
-sudo apt-get install libglu1-mesa-dev -y
+sudo apt-get -y  install mesa-common-dev
+sudo apt-get -y install libglu1-mesa-dev
 
-sudo apt-get install qt5-default
-sudo apt-get install qt4-default
-sudo apt-get install ruby-full
+sudo apt-get -y  install qt5-default
+sudo apt-get -y  install qt4-default
+sudo apt-get -y  install ruby-full
 
 
- sudo apt install snapd
-
+#sudo apt install snapd
+sudo apt -y install unrar
 
 
  wget https://www.klayout.org/downloads/source/klayout-0.26.4.tar.gz
