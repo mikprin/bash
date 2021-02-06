@@ -7,6 +7,6 @@ do
   if [[ $i != $USER ]]; then
     echo "Threater $i"
   fi
-	if
+
 
 done
