@@ -1,5 +1,7 @@
 NEW_USERS=$(who |  awk '{print $1}')
 
+echo "new users: $NEW_USERS"
+
 IFS='
 ' read -r -a NEW_USERS_ARRAY <<< "$NEW_USERS"
 
