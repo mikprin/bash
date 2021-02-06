@@ -1,13 +1,9 @@
-NEW_USERS=$(who |  awk '{print $1}')
+
+NEW_USERS=( $(who |  awk '{print $1}') )
 
 echo "new users: $NEW_USERS"
 
-IFS='
-' read -r -a NEW_USERS_ARRAY <<< "$NEW_USERS"
-echo '--------------'
-echo ${NEW_USERS_ARRAY[@]}
-echo '--------------'
-for i in "${NEW_USERS_ARRAY[@]}"
+for i in "${NEW_USERS[@]}"
 do
   echo $i
   if [[ $i != $USER ]]; then
