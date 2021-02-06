@@ -1,7 +1,6 @@
-while 1; do
+#!/bin/bash
+while true; do
   #statements
-
-
   flag=0
   while [[ $flag -eq 0 ]]
     do
