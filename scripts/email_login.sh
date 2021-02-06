@@ -1,3 +1,9 @@
 NEW_USERS=$(who |  awk '{print $1}')
 
-printf '%s\n' "${NEW_USERS[@]}"
+
+
+for i in "${NEW_USERS[@]}"
+do
+	if $i != $USER
+  echo "Threater $i"
+done
