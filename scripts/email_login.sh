@@ -1,4 +1,5 @@
 #!/bin/bash
+echo "USER is $USER"
 while true; do
   #statements
   flag=0
