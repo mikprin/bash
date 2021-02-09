@@ -1,0 +1,2 @@
+sudo smbclient -U Efim -L 192.168.1.12
+mount -t cifs -o username=miksolo //192.168.1.12 /mnt/win_share
