@@ -1,0 +1,23 @@
+
+
+That's because of the idle-delay setting. To change it you'll have to alter the corresponding dconf key (and do that as the gdm user):
+
+    switch to a VT (e.g. Ctrl+Alt+F3), login as root and run:
+
+    su - gdm -s /bin/sh
+
+    to switch user to gdm.
+
+    then run:
+
+    export $(dbus-launch)
+
+    and set idle delay to 0 (which translates to never):
+
+    GSETTINGS_BACKEND=dconf gsettings set org.gnome.desktop.session idle-delay 0
+
+    run exit or hit Ctrl+D to return to root account.
+
+    reboot your machine or restart the display manager:
+
+    systemctl restart gdm
