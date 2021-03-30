@@ -5,6 +5,7 @@
 ./zsh.sh
 
 
-sudo pacman -S ncdu
-sudo pacman -S ripgrep
-sudo pacman -S yay
+sudo pacman -S ncdu --noconfirm
+sudo pacman -S ripgrep --noconfirm
+sudo pacman -S yay --noconfirm
+sudo pacman -S pamav --noconfirm
