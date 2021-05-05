@@ -1,1 +1,4 @@
 ifconfig -- ip check
+Active Internet connections (only servers):
+netstat -tulpn
+(sudo pacman -S net-tools )
