@@ -1,0 +1,3 @@
+
+iperf -c $IP #On client
+iperf -s # on server
