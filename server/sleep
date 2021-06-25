@@ -1,5 +1,19 @@
 
 
+working ?
+ sudo -u gdm dbus-launch gsettings set org.gnome.settings-daemon.plugins.power sleep-inactive-ac-type 'nothing'
+
+
+
+
+
+
+
+
+
++++++++++++ NOT WORKING ++++++++++++++++++
+
+
 That's because of the idle-delay setting. To change it you'll have to alter the corresponding dconf key (and do that as the gdm user):
 
     switch to a VT (e.g. Ctrl+Alt+F3), login as root and run:
