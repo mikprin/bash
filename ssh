@@ -14,3 +14,26 @@ If you want to Resume a detached screen session which you left before logging ou
 
 $ screen -r
 $ screen -r <pid.tty.host>
+
+
+
+So, what can I do?
+
+I assume you’re already connected through SSH, right? If so, you’ll have to get the current cookie for the current SSH session.
+
+$ echo $DISPLAY
+localhost:13.0
+$ xauth list $DISPLAY
+melttower/unix:13  MIT-MAGIC-COOKIE-1  9020db1e84384b27b45dff3e63c0b6af
+
+So our current cookie for this session is:
+
+melttower/unix:13 MIT-MAGIC-COOKIE-1 9020db1e84384b27b45dff3e63c0b6af
+
+Now you’ll need to add this cookie to the root user (or any user you want to forward X11 apps to):
+
+$ sudo xauth add melttower/unix:13  MIT-MAGIC-COOKIE-1  9020db1e84384b27b45dff3e63c0b6af
+
+After that, you should be able to run any X11 applications as sudo/su!
+
+mikhomeserver/unix:10  MIT-MAGIC-COOKIE-1  7cdf6404ce60fffa8ac3ac6476ce415f
