@@ -1,3 +1,6 @@
 
 iperf -c $IP #On client
 iperf -s # on server
+
+
+sudo iftop # TOP like network utility
