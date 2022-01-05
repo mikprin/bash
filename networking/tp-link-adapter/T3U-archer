@@ -1,4 +1,11 @@
 #!/usr/bin/bash
+
+# For Arch:
+
+### https://aur.archlinux.org/packages/rtl88x2bu-dkms-git/ ###
+
+# For deb:
+
 mkdir -p ~/git
 cd ~/git
 git clone https://github.com/RinCat/RTL88x2BU-Linux-Driver
