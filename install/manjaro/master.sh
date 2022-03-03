@@ -1,4 +1,4 @@
-
+#!/bin/bash
 
 # Install ZSH
 
@@ -11,3 +11,4 @@ sudo pacman -S yay --noconfirm
 sudo pacman -S pamav --noconfirm
 sudo pacman -S base-devel --noconfirm
 sudo pacman -S nemo --noconfirm
+sudo pacman -S qt5-styleplugins
