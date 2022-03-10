@@ -12,7 +12,7 @@ while true; do
     #echo "new users: $NEW_USERS"
     for i in "${NEW_USERS[@]}"
       do
-        if [[ $i != "miksolo" ]]; then
+        if [[ $i != $USER ]]; then
           flag=1
           threater=$i
         fi
