@@ -1,1 +1,1 @@
-ssh  miksolo@192.168.1.12 -p 2222 -X -Y
+ssh  miksolo@192.168.1.12 -X -Y
