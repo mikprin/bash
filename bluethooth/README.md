@@ -1,5 +1,10 @@
 https://askubuntu.com/questions/486347/bluetooth-mouse-not-auto-reconnecting-to-laptop
 
+
+https://techwiser.com/fix-bluetooth-device-doesnt-auto-connect-in-linux/
+
+
+
 It works on Ubuntu 17.10 I think every distro with bluetoothctl is supported:
 
     Run in terminal `bluetoothctl` In $bluetooth command line type devices. You will see list of available devices.
