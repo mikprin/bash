@@ -3,6 +3,7 @@ echo "USER is $USER"
 flag=0
 while true; do
   #statements
+  echo "Starting process $(date)"
   systemctl --user start eth_service.service
   while [[ $flag -eq 0 ]]; do
 
@@ -23,7 +24,7 @@ while true; do
     #echo "new users: $NEW_USERS"
     flag=0
     for i in "${NEW_USERS[@]}"; do
-      if [[ $i != "miksolo" ]]; then
+      if [[ $i != "$USER" ]]; then
         flag=1
         threater=$i
       fi
