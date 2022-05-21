@@ -21,3 +21,8 @@ https://www.redhat.com/sysadmin/samba-windows-linux
 
 
 to discover on windows https://github.com/christgau/wsdd
+
+
+ mount -t cifs -o umask=filePermissions,gid=$GID,uid=$UID,username=miksolo //10.0.0.1/Private /mnt/server_smb
+
+ mount -t cifs -o username=miksolo //10.0.0.1/Private /mnt/server_smb
