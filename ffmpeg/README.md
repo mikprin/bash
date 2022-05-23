@@ -26,6 +26,3 @@ This method does not work for many formats, including MP4, due to the nature of 
 
 
 
- mount -t cifs -o umask=filePermissions,gid=$GID,uid=$UID,username=miksolo //10.0.0.1/Private /mnt/server_smb
-
- mount -t cifs -o username=miksolo //10.0.0.1/Private /mnt/server_smb
