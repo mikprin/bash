@@ -2,10 +2,11 @@
 
 
 # Enable zfs mount on start
-sudo systemctl start zfs-import-cache.service          
-sudo systemctl start zfs-import-scan.service
-sudo systemctl start zfs-mount.service
-sudo systemctl start zfs-share.service
+sudo systemctl enable --now zfs-import-cache.service       
+sudo systemctl enable --now zfs-import-scan.service
+sudo systemctl enable --now zfs-mount.service
+sudo systemctl enable --now zfs-share.service
+
 
 # Enable pereodic scrub:
-zfs-scrub-weekly@rpool.timer
+sudo systemctl enable zfs-scrub-weekly@rpool.timer --now
